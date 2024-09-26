@@ -1,0 +1,146 @@
+{
+	"root": {
+		"children": [{
+				"id": "line1",
+				"text": "2015RAMC",
+				"isOverlap": false,
+				"isEquipment": false,
+				"isRiskFactor": false,
+				"task": [{
+					"id": "1234",
+					"startTime": "20230616090000",
+					"endTime": "20230618090000"
+				}],
+				"children": [{
+					"id": "line2",
+					"text": "Bed 1",
+					"department": "Pulmonary",
+					"isOverlap": true,
+					"isEquipment": true,
+					"isRiskFactor": false,
+					"subtask": [{
+						"id": "Chevron",
+						"fillColor": "#696969",
+						"title": "John Doe (38) ",
+						"titleColor": "#FFFFFF",
+						"startTime": "20230601090000",
+						"endTime": "20230607090000"
+					}, {
+						"id": "Chevron2",
+						"fillColor": "#FF0000",
+						"title": "Jane Doe (29)",
+						"titleColor": "#000000",
+						"startTime": "20230610090000",
+						"endTime": "20230621090000"
+					}]
+				}, {
+					"id": "line2",
+					"text": "Bed 2",
+					"department": "Pediatrics",
+					"subtask": [{
+						"id": "Chevron",
+						"fillColor": "#696969",
+						"title": "Gabriel Ifratar (27)",
+						"titleColor": "#FFFFFF",
+						"startTime": "20230601090000",
+						"endTime": "20230607090000"
+					}, {
+						"id": "Chevron2",
+						"fillColor": "#FF0000",
+						"title": "Ahmed Hassan (45)",
+						"titleColor": "#000000",
+						"startTime": "20230610090000",
+						"endTime": "20230621090000"
+					}]
+				}, {
+					"id": "line2",
+					"text": "Bed 3",
+					"department": "Pulmonary",
+					"subtask": [{
+						"id": "Chevron",
+						"fillColor": "#696969",
+						"title": "G. Iglesias (52)",
+						"titleColor": "#FFFFFF",
+						"startTime": "20230601090000",
+						"endTime": "20230607090000"
+					}, {
+						"id": "Chevron2",
+						"fillColor": "#FF0000",
+						"title": "Mohammad Salah (33)",
+						"titleColor": "#000000",
+						"startTime": "20230610090000",
+						"endTime": "20230621090000"
+					}]
+				}]
+			}, {
+				"id": "line1",
+				"text": "2017RAMC",
+				"isOverlap": false,
+				"isEquipment": false,
+				"isRiskFactor": false,
+				"task": [{
+					"id": "1234",
+					"startTime": "20230616090000",
+					"endTime": "20230618090000"
+				}],
+				"children": [{
+					"id": "line2",
+					"text": "Bed 1",
+					"department": "Pulmonary",
+					"isOverlap": false,
+					"isEquipment": true,
+					"isRiskFactor": false,
+					"subtask": [{
+						"id": "Chevron",
+						"fillColor": "#696969",
+						"title": "Paul Collingwood (48)",
+						"titleColor": "#FFFFFF",
+						"startTime": "20230601090000",
+						"endTime": "20230607090000"
+					}, {
+						"id": "Chevron2",
+						"fillColor": "#FF0000",
+						"title": "Kevin Saul (31)",
+						"titleColor": "#000000",
+						"startTime": "20230610090000",
+						"endTime": "20230621090000"
+					}]
+				}]
+			}, {
+				"id": "line1",
+				"text": "2018RAMC",
+				"isOverlap": false,
+				"isEquipment": false,
+				"isRiskFactor": false,
+				"task": [{
+					"id": "1234",
+					"startTime": "20230616090000",
+					"endTime": "20230618090000"
+				}],
+				"children": [{
+					"id": "line2",
+					"text": "Bed 1",
+					"department": "Pulmonary",
+					"isOverlap": false,
+					"isEquipment": true,
+					"isRiskFactor": false,
+					"subtask": [{
+						"id": "Chevron",
+						"fillColor": "#696969",
+						"title": "Brittany Adam (23)",
+						"titleColor": "#FFFFFF",
+						"startTime": "20230601090000",
+						"endTime": "20230607090000"
+					}, {
+						"id": "Chevron2",
+						"fillColor": "#FF0000",
+						"title": "Martha Benon (72)",
+						"titleColor": "#000000",
+						"startTime": "20230610090000",
+						"endTime": "20230621090000"
+					}]
+				}]
+			}]
+
+	}
+}
